@@ -1,0 +1,62 @@
+.role-tab-header {
+  height: 50px;
+}
+
+.role-tab-item {
+  border-bottom: 1px solid $primary-border-color;
+}
+
+.role-tab-item-odd {
+  background-color: rgba(211, 211, 211, 0.3);
+}
+
+.add-new-button {
+  background-color: white;
+  color: $primary-text;
+  border: 1px solid $primary-text;
+  border-radius: 15px;
+}
+
+.delete-role-modal {
+  height: 500px;
+}
+
+.delete-button {
+  color: white;
+  border: none;
+  background-color: $blood-red;
+  border-radius: 15px;
+}
+
+.description-text-area {
+  height: 100px !important;
+  resize: none;
+}
+
+.permissions-select {
+  max-height: 100px !important;
+}
+
+.css-1rhbuit-multiValue {
+  font-size: 12px;
+}
+
+.react-datepicker__input-container input {
+  border: 1px solid rgba(0,0,0,0.125);
+}
+
+.react-datepicker__day--selected ,
+.react-datepicker__day--keyboard-selected,
+.react-datepicker__month-text--keyboard-selected,
+.react-datepicker__quarter-text--keyboard-selected,
+.react-datepicker__year-text--keyboard-selected {
+  background-color: $blood-red !important;
+}
+
+.react-datepicker__month-container {
+  font-family: 'Exo 2', sans-serif;
+}
+
+.react-datepicker__day-name {
+  color: $blood-red !important;
+}

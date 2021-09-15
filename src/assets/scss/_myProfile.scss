@@ -1,0 +1,16 @@
+.my-profile-container-card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding-inline: 50px;
+  width: 600px;
+}
+
+.my-profile-button {
+  width: 100px;
+}
+
+.my-profile-cancel-button {
+  background-color: white;
+  color: $blood-red;
+  border: 1px solid $blood-red;
+  margin-right: 10px;
+}

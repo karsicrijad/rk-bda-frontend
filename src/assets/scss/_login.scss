@@ -1,0 +1,73 @@
+.login-container {
+  width: 400px;
+  border-radius: 10px !important;
+}
+
+.login-header {
+  font-size: 20px;
+  height: 100px;
+  background-color: $blood-red;
+  color: white;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.sign-in-button {
+  color: white;
+  border: none;
+  background-color: rgba(0,0,0,0.2);
+  font-size: 20px;
+  border-bottom-left-radius: 10px;
+  height: 50px;
+  font-weight: 300;
+  transition: background-color 0.1s linear;
+
+  &:hover {
+    background-color: $blood-red;
+    transition: background-color 0.1s linear;
+  }
+}
+.sign-up-button {
+  padding: 0;
+  color: white;
+  border: none;
+  border-left: 1px solid rgba(0,0,0,0.125);
+  background-color: rgba(0,0,0,0.2);
+  font-size: 20px;
+  border-bottom-right-radius: 10px;
+  height: 50px;
+  font-weight: 300;
+  transition: background-color 0.1s linear;
+
+  &:hover {
+    background-color: $blood-red;
+    transition: background-color 0.1s linear;
+  }
+}
+
+.login-button {
+  padding: 0;
+  color: white;
+  border: none;
+  border-left: 1px solid rgba(0,0,0,0.125);
+  background-color: $blood-red;
+  font-size: 20px;
+  border-radius: 10px;
+  height: 50px;
+  font-weight: 300;
+}
+
+.input-style {
+  border: 1px solid rgba(0,0,0,0.125) !important;
+  color: $primary-text !important;
+  &:focus,
+  &:active {
+    box-shadow: none !important;
+    outline: 0 !important;
+  }
+}
+
+.login-error-message {
+  color: $blood-red;
+  font-size: 16px;
+}

@@ -1,0 +1,18 @@
+.navbar-container {
+  height: 50px;
+  box-shadow: 0 0 8px 0 rgba(0,0,0,0.2);
+}
+
+.navbar-settings {
+  padding-right: 25px !important;
+}
+
+.navbar-dropdown {
+  background-color: transparent !important;
+  border: none!important;
+  box-shadow: none!important;
+}
+
+.navbar-sign-out {
+  color: $blood-red !important;
+}

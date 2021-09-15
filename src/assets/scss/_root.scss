@@ -1,0 +1,39 @@
+html, body {
+  height: 100%;
+  font-family: 'Exo 2', sans-serif;
+}
+
+#root {
+  height: 100%;
+  color: $primary-text;
+  font-weight: 300;
+}
+
+.root-container {
+  max-width: 2400px !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.highlighted {
+  background-color: $blood-red-light !important;
+}
+
+.white-space-pre-wrap {
+  white-space: pre-wrap;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $primary-text;
+  border-radius: 10px;
+}
